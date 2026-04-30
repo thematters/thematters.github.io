@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://thematters.github.io/users/alice/outbox",
+  "type": "OrderedCollection",
+  "totalItems": 1,
+  "first": {
+    "id": "https://thematters.github.io/users/alice/outbox?page=true",
+    "type": "OrderedCollectionPage",
+    "partOf": "https://thematters.github.io/users/alice/outbox",
+    "totalItems": 1,
+    "orderedItems": [
+      {
+        "id": "https://thematters.github.io/activities/matters-demo-article-create",
+        "type": "Create",
+        "actor": "https://thematters.github.io/users/alice.json",
+        "published": "2026-04-30T00:00:00Z",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+          "https://thematters.github.io/users/alice/followers"
+        ],
+        "object": {
+          "id": "https://thematters.github.io/articles/matters-open-social-demo",
+          "type": "Article",
+          "attributedTo": "https://thematters.github.io/users/alice.json",
+          "name": "A long-form Matters article in the Fediverse",
+          "summary": "A static demo article showing how Matters Fediverse Gateway represents long-form publishing as ActivityPub Article, not as a shortened microblog note.",
+          "content": "<p>This public prototype demonstrates the read side of Matters Fediverse Gateway: WebFinger discovery, an ActivityPub actor, an outbox, and a long-form Article object. In production, public Matters articles would be bridged from the IPFS/IPNS publishing layer while private, paid, encrypted, and message-like content stays outside federation.</p>",
+          "mediaType": "text/html",
+          "url": "https://thematters.github.io/matters-fediverse-gateway/",
+          "published": "2026-04-30T00:00:00Z",
+          "to": [
+            "https://www.w3.org/ns/activitystreams#Public"
+          ],
+          "cc": [
+            "https://thematters.github.io/users/alice/followers"
+          ],
+          "tag": [
+            {
+              "type": "Hashtag",
+              "name": "#OpenSocial",
+              "href": "https://thematters.github.io/matters-fediverse-gateway/"
+            },
+            {
+              "type": "Hashtag",
+              "name": "#ActivityPub",
+              "href": "https://www.w3.org/TR/activitypub/"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

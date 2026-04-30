@@ -1,0 +1,19 @@
+{
+  "subject": "acct:alice@thematters.github.io",
+  "aliases": [
+    "https://thematters.github.io/users/alice.json",
+    "https://thematters.github.io/matters-fediverse-gateway/"
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://thematters.github.io/users/alice.json"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://thematters.github.io/matters-fediverse-gateway/"
+    }
+  ]
+}

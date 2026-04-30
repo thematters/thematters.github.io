@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
+  ],
+  "id": "https://thematters.github.io/users/alice.json",
+  "type": "Person",
+  "preferredUsername": "alice",
+  "name": "Alice from Matters",
+  "summary": "Demo author for Matters Fediverse Gateway. Public long-form articles are exposed as ActivityPub Article objects while non-public Matters content remains outside federation.",
+  "url": "https://thematters.github.io/matters-fediverse-gateway/",
+  "inbox": "https://thematters.github.io/users/alice/inbox",
+  "outbox": "https://thematters.github.io/users/alice/outbox",
+  "followers": "https://thematters.github.io/users/alice/followers",
+  "following": "https://thematters.github.io/users/alice/following",
+  "publicKey": {
+    "id": "https://thematters.github.io/users/alice.json#main-key",
+    "owner": "https://thematters.github.io/users/alice.json",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjxk5vrkfCOSMDqY5uyLj\nn362WeowOlzbHOBkZ6xvUd3XiK5rZvpdh44vCO4wrP+sJB4lM5XmWvF6ovuXLQFY\nlSBFIYNOO/d0Tb36vSQI6iP3p4evJ2rBFq1XB7L+iwTNYgTOQKNPTm4GtSRiKO4j\nG9OAOVGWj5l+IaBwvle+j/tc/cFjB6mkLkcPpWFAMaowZZB4w1vBnEuPwAslXKr8\nif2dnlz2evdgwYcydF2duIt2WqPC+FoGEzXneXkJooJflF5exsTbWcAyFaGdatRG\n6MhotmpLoAdmsHlcwYCJcgjLX9uNc4k8rVmUKnlMfuqUgEw2MyH/KyPPHqLnmbPY\nRwIDAQAB\n-----END PUBLIC KEY-----"
+  },
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/svg+xml",
+    "url": "https://thematters.github.io/matters-fediverse-gateway/static/matters-logo-graph.svg"
+  }
+}
