@@ -1,0 +1,69 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://thematters.github.io/users/matters/outbox",
+  "type": "OrderedCollection",
+  "totalItems": 1,
+  "first": {
+    "id": "https://thematters.github.io/users/matters/outbox?page=true",
+    "type": "OrderedCollectionPage",
+    "partOf": "https://thematters.github.io/users/matters/outbox",
+    "totalItems": 1,
+    "orderedItems": [
+      {
+        "id": "https://thematters.github.io/activities/matters-main-site-open-social-demo-create",
+        "type": "Create",
+        "actor": "https://thematters.github.io/users/matters.json",
+        "published": "2026-04-30T00:00:00Z",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+          "https://thematters.github.io/users/matters/followers"
+        ],
+        "object": {
+          "id": "https://thematters.github.io/articles/matters-main-site-open-social-demo",
+          "type": "Article",
+          "attributedTo": "https://thematters.github.io/users/matters.json",
+          "name": "Matters main-site publishing as an ActivityPub Article",
+          "summary": "A public long-form Matters article can be preserved by the IPFS/IPNS publishing path, emitted as an ActivityPub seed bundle, and served through a gateway that handles live social interaction.",
+          "content": "<p>Matters Fediverse Gateway demonstrates how public long-form writing can move from Matters' main publishing surface into open social discovery without turning essays into short notes.</p><p>The static publishing layer produces a public ActivityPub seed bundle. The gateway runtime owns identity discovery, inbox handling, followers state, delivery, moderation, and recovery.</p>",
+          "mediaType": "text/html",
+          "url": "https://matters.town",
+          "published": "2026-04-30T00:00:00Z",
+          "updated": "2026-04-30T00:00:00Z",
+          "to": [
+            "https://www.w3.org/ns/activitystreams#Public"
+          ],
+          "cc": [
+            "https://thematters.github.io/users/matters/followers"
+          ],
+          "tag": [
+            {
+              "type": "Hashtag",
+              "name": "#OpenSocial",
+              "href": "https://matters.town/tags/open-social"
+            },
+            {
+              "type": "Hashtag",
+              "name": "#ActivityPub",
+              "href": "https://www.w3.org/TR/activitypub/"
+            },
+            {
+              "type": "Hashtag",
+              "name": "#IPFS",
+              "href": "https://matters.town/tags/ipfs"
+            }
+          ],
+          "attachment": [
+            {
+              "type": "Link",
+              "mediaType": "text/html",
+              "name": "Matters main site",
+              "href": "https://matters.town"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

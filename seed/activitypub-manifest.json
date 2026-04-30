@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generator": "ipns-site-generator",
+  "generatedAt": "2026-04-30T00:00:00Z",
+  "caseStudy": "Matters main-site public publishing",
+  "actor": {
+    "handle": "matters",
+    "sourceActorId": "https://matters.town/@matters",
+    "canonicalActorId": "https://thematters.github.io/users/matters.json",
+    "webfingerSubject": "acct:matters@thematters.github.io",
+    "profileUrl": "https://matters.town"
+  },
+  "files": {
+    "actor": "https://thematters.github.io/seed/about.jsonld",
+    "outbox": "https://thematters.github.io/seed/outbox.jsonld",
+    "canonicalActor": "https://thematters.github.io/users/matters.json",
+    "canonicalOutbox": "https://thematters.github.io/users/matters/outbox"
+  },
+  "visibility": {
+    "federatedPublicOnly": true,
+    "excluded": [
+      "paid",
+      "encrypted",
+      "private",
+      "message"
+    ]
+  },
+  "gateway": {
+    "runtime": "gateway-core",
+    "edge": "cloudflare-worker",
+    "repository": "https://github.com/thematters/matters-fediverse-gateway"
+  }
+}

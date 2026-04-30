@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "toot": "http://joinmastodon.org/ns#",
+      "discoverable": "toot:discoverable",
+      "alsoKnownAs": {
+        "@id": "as:alsoKnownAs",
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://thematters.github.io/users/matters.json",
+  "type": "Person",
+  "preferredUsername": "matters",
+  "name": "Matters",
+  "summary": "Demo actor for Matters Fediverse Gateway. This actor models how public Matters main-site articles can be emitted as an ActivityPub seed bundle and exposed as canonical Article objects.",
+  "url": "https://matters.town",
+  "inbox": "https://thematters.github.io/users/matters/inbox",
+  "outbox": "https://thematters.github.io/users/matters/outbox",
+  "followers": "https://thematters.github.io/users/matters/followers",
+  "following": "https://thematters.github.io/users/matters/following",
+  "discoverable": true,
+  "alsoKnownAs": [
+    "https://matters.town",
+    "https://thematters.github.io/matters-fediverse-gateway/"
+  ],
+  "publicKey": {
+    "id": "https://thematters.github.io/users/matters.json#main-key",
+    "owner": "https://thematters.github.io/users/matters.json",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjxk5vrkfCOSMDqY5uyLj\nn362WeowOlzbHOBkZ6xvUd3XiK5rZvpdh44vCO4wrP+sJB4lM5XmWvF6ovuXLQFY\nlSBFIYNOO/d0Tb36vSQI6iP3p4evJ2rBFq1XB7L+iwTNYgTOQKNPTm4GtSRiKO4j\nG9OAOVGWj5l+IaBwvle+j/tc/cFjB6mkLkcPpWFAMaowZZB4w1vBnEuPwAslXKr8\nif2dnlz2evdgwYcydF2duIt2WqPC+FoGEzXneXkJooJflF5exsTbWcAyFaGdatRG\n6MhotmpLoAdmsHlcwYCJcgjLX9uNc4k8rVmUKnlMfuqUgEw2MyH/KyPPHqLnmbPY\nRwIDAQAB\n-----END PUBLIC KEY-----"
+  },
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/svg+xml",
+    "url": "https://thematters.github.io/matters-fediverse-gateway/static/matters-logo-graph.svg"
+  },
+  "endpoints": {
+    "sharedInbox": "https://thematters.github.io/inbox"
+  }
+}

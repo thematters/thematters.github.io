@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
+  ],
+  "id": "https://matters.town/@matters",
+  "type": "Person",
+  "preferredUsername": "matters",
+  "name": "Matters",
+  "summary": "Static ActivityPub seed actor emitted by the publishing layer before gateway canonicalization.",
+  "url": "https://matters.town",
+  "inbox": "https://thematters.github.io/users/matters/inbox",
+  "outbox": "https://thematters.github.io/seed/outbox.jsonld",
+  "alsoKnownAs": [
+    "https://thematters.github.io/users/matters.json"
+  ],
+  "discoverable": true,
+  "publicKey": {
+    "id": "https://thematters.github.io/users/matters.json#main-key",
+    "owner": "https://thematters.github.io/users/matters.json"
+  },
+  "webfingerSubject": "acct:matters@thematters.github.io"
+}
